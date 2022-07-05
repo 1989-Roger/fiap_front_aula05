@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Introdução JavaScript</title>
+</head>
+
+<body>
+    <h1 class="bg-info p-5 mb-3 text-light">Introdução Javascript</h1>
+
+    <div class="container">
+
+        <!-- criar a tabela  -->
+        <table class="table table-striped table-hover table-responsive">
+            <!-- <table border="1"> -->
+
+            <thead class="table-dark">
+                <!-- linha do cabeçalho -->
+                <tr class="text-center">
+                    <th>Personagens</th>
+                    <th>Força</th>
+                    <th>Agilidade</th>
+                    <th>Poder</th>
+                </tr>
+            </thead>
+            <!-- fim do cabeçalho da tabela -->
+            <!-- dados da tabela -->
+            <tbody id="starWars">
+                <!-- 1o personagem -->
+                <tr class="personagens text-center">
+                    <td class="nome-personagem">Darth Vader</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>Todos possíveis e imagináveis</td>
+                </tr>
+                <!-- atalho exemplo tr.personagens>td*4 -->
+                <tr class="personagens text-center">
+                    <td class="nome-personagem">Han Solo</td>
+                    <td>90</td>
+                    <td>90</td>
+                    <td>Grande Piloto</td>
+                </tr>
+                <tr class="personagens text-center">
+                    <td class="nome-personagem">Princesa Leia</td>
+                    <td>90</td>
+                    <td>90</td>
+                    <td>Grande Gestora</td>
+                </tr>
+
+                <tr class="personagens text-center">
+                    <td class="nome-personagem">Obi Wan Kenobi</td>
+                    <td>95</td>
+                    <td>95</td>
+                    <td>Grande Mentor</td>
+                </tr>
+                <tr class="personagens text-center">
+                    <td class="nome-personagem">Mestre Yoda</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>Todos possíveis</td>
+                </tr>
+                <tr class="personagens text-center">
+                    <td class="nome-personagem">Darth Maul</td>
+                    <td>85</td>
+                    <td>85</td>
+                    <td>Especialista em sabre Duplos</td>
+                </tr>
+                <tr class="personagens text-center">
+                    <td class="nome-personagem">Chewbacca</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>Grande atirador</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr class="text-center">
+                    <td colspan="4">Dados atualizados 06/2022</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </div>
+
+    <!-- linkar o js sempre no final -->
+    <!-- <script src="./js/base.js"></script> -->
+    <script src=".js/tabela.js"></script>
+</body>
+
+</html>
